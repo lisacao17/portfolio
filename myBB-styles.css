@@ -1,0 +1,56 @@
+.flex-split-body-content{
+  display: inline-flex;
+}
+
+.flex-left img{
+  width: 200px;
+}
+
+.flex-right img{
+  width: 200px;
+}
+
+.flex-left{
+  width: auto;
+}
+
+.flex-right{
+  width: auto;
+  float: right;
+}
+
+#competitive-analysis{
+  padding-top: 24px;
+}
+
+#final-design{
+  width: 250px;
+}
+
+#final-design-split-body-content{
+  justify-content: center;
+}
+
+.right{
+  text-align: center;
+}
+
+.left{
+  text-align: center;
+}
+
+/* for medium devices*/
+@media only screen and (min-width: 701px) and (max-width: 1279px){
+  #final-design-split-body-content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left{
+    padding-right: 0;
+  }
+
+  .right{
+    padding-left: 0;
+  }
+}
