@@ -53,6 +53,10 @@
   padding-bottom: 12px;
 }
 
+.body-content h5 a{
+  
+}
+
 .highlighted{
   border-radius: 24px;
   padding: 12px 32px 12px 32px;
@@ -147,12 +151,41 @@
   display: block;
 }
 
+.stadia-split-body-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stadia-split-body-content img {
+  width: 48%;
+  height: auto;
+  margin: 0;
+  border-radius: 20px; 
+  padding-bottom: 0px;
+}
+
 #competitor-logos{
   height: 100px;
   width: 100px;
   padding-bottom: 8px;
   padding-top: 8px;
 }
+
+.google-split-body-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.google-split-body-content img {
+  width: 30%;
+  border-radius: 20px;
+  height: auto;
+  margin: 0 5px;
+  padding-bottom: 0px;
+}
+
+
 
 @media only screen and (max-width: 700px){
   #stadia-split{
@@ -234,5 +267,15 @@
 
   .title-section h1{
     line-height: 44px;
+  }
+
+  .google-split-body-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .google-split-body-content img {
+    width: 100%;
+    margin: 10px 0;
   }
 }
