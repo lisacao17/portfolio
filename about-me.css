@@ -21,7 +21,7 @@
 
 .column {
   flex: 25%;
-  padding: 24px;
+  padding: 12px;
   transition: all .5s;
 }
 
@@ -32,6 +32,16 @@
 
 .column img{
   border-radius: 40px;
+}
+
+.body-content p{
+  color: #7F7F7F;
+}
+
+.body-content h1{
+  color: #000;
+  line-height: 26px;
+  font-size: 16px;
 }
 
 
