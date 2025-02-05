@@ -236,7 +236,6 @@ li{
 
 .case-text a{
   text-decoration: none;
-  font-size: 16px;
 }
 
 .cta{
@@ -425,7 +424,6 @@ footer h3 {
 
   .case-text p{
     width: 100%;
-    padding-bottom: 12px;
   }
 
   .case-text h4{
