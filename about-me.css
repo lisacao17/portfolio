@@ -69,7 +69,7 @@
   .photo-row {
     flex-direction: column; /* Stack columns vertically */
     margin: 0; /* Remove margin on mobile */
-    padding-top: 20px; /* Adjust padding for mobile */
+    padding-top: 40px; /* Adjust padding for mobile */
   }
 
   .photo-row .column {
@@ -94,11 +94,15 @@
   }
 
   .about-me-photo{
-    width: 40%;
+    width: 30%;
     padding-right: 0;
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+  }
+
+  .photo-row{
+    padding-top: 40px;
   }
 
   .body-content{
