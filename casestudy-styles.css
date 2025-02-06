@@ -256,6 +256,14 @@
     margin-bottom: 4px;
   }
 
+  .body-content h6{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+
   .body-content p{
     color: #737373;
     margin-top: 8px;
