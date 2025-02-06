@@ -53,6 +53,11 @@
   padding-bottom: 12px;
 }
 
+.body-content a{
+  color: #000;
+  font-weight: 400;
+}
+
 .highlighted{
   border-radius: 24px;
   padding: 12px 32px 12px 32px;
@@ -247,8 +252,20 @@
   .body-content h3{
     font-size: 16px;
     line-height: 28px;
+    margin-top: 12px;
+    margin-bottom: 4px;
   }
 
+  .body-content p{
+    color: #737373;
+    margin-top: 8px;
+  }
+
+  .body-content a{
+    color: #737373;
+    font-weight: 400;
+  }
+  
   .split-body-content{
     flex-direction: column;
   }
