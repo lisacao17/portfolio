@@ -74,7 +74,7 @@ li{
   font-family: 'chinese';
   text-decoration: none;
   color: #000;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .chinese{
@@ -156,6 +156,7 @@ li{
 
 .main-text p{
   color: #737373;
+  margin-top: 8px;
 }
 
 .main-text a{
@@ -214,6 +215,7 @@ li{
   padding-bottom: 28px;
   color: #7F7F7F;
   font-weight: 400;
+  margin-top: 8px;
 }
 
 .case-study h3{
@@ -355,6 +357,7 @@ footer h3 {
   .case-text p{
     width: 100%;
     padding-bottom: 12px;
+    margin-top: 8px;
   }
 
   .case-photo img{
