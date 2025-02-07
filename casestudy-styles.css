@@ -11,6 +11,45 @@
   margin-top: 32px;
 }
 
+/*Banner*/
+.banner {
+  background-color: #F7F9FB;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row; /* Change to row to align items side by side */
+  justify-content: space-between; /* Space between the items */
+  align-items: center; /* Center items vertically */
+  text-align: left; /* Ensure text is left-aligned */
+  padding: 32px 40px; /* Add padding if needed */
+  margin-bottom: 20px; /* Add margin to separate from other content */
+}
+
+.banner h3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.banner p {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.banner .cta {
+  display: inline-block;
+  padding: 16px 20px;
+  background-color: #2D2D2D;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.banner .material-symbols-outlined{
+  vertical-align: middle;
+  margin-left: 4px;
+  font-size: 20px;
+}
+/*---*/
+
 .title-section h1{
   line-height: 16px;
 }
@@ -186,8 +225,6 @@
   padding-bottom: 0px;
 }
 
-
-
 @media only screen and (max-width: 700px){
   #stadia-split{
     width: 90%;
@@ -298,5 +335,37 @@
   .google-split-body-content img {
     width: 100%;
     margin: 10px 0;
+  }
+
+  /*Banner*/
+  .banner {
+    flex-direction: column; /* Stack items vertically on mobile */
+    text-align: center; /* Center text on mobile */
+    align-items: center; /* Center items horizontally on mobile */
+    margin-bottom: 40px; /* Add margin to separate from other content */
+    padding: 28px;
+  }
+
+  .title-section{
+    padding-bottom: 0;
+  }
+
+  .banner .cta {
+    margin-top: 20px; /* Add margin to separate from other elements */
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1279px){
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .banner .cta {
+    margin-top: 20px; /* Add margin to separate from other elements */
+  }
+
+  .title-section h1{
+    line-height: normal;
   }
 }
