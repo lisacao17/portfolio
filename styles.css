@@ -13,20 +13,22 @@ body{
 }
 
 h1{
-  font-size: 36px;
+  font-size: 22px;
   font-weight: 500;
+  line-height: 26px;
+  color: #000;
 }
 
 h2{
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 26px;
 }
 
 h3{
   font-size: 22px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 26px;
 }
 
 h4{
@@ -37,8 +39,9 @@ h4{
 
 h5{
   font-style: italic;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
+  color: #000;
 }
 
 h6{
@@ -206,16 +209,20 @@ li{
 }
 
 .case-study h1{
-  color: #000;
-  line-height: 26px;
-  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.case-study h5{
+  font-style: normal;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #BBBBBB;
 }
 
 .case-text p{
   padding-bottom: 28px;
   color: #7F7F7F;
   font-weight: 400;
-  margin-top: 8px;
 }
 
 .case-study h3{
