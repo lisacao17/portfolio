@@ -136,28 +136,12 @@
   font-weight: 400;
 }
 
-.highlighted{
-  border-radius: 24px;
-  padding: 12px 32px 12px 32px;
-  margin-bottom: 32px;
-  margin-top: 32px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
 .competitor-highlighted{
   border-radius: 24px;
   padding: 12px 32px 12px 32px;
   margin-bottom: 32px;
   margin-top: 32px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.highlighted p{
-  padding-bottom: 0;
-}
-
-.highlighted h6{
-  margin-top: 16px;
 }
 
 .competitor-highlighted h6{
@@ -334,10 +318,6 @@
 
   .subtitle h3{
     margin: 0;
-  }
-
-  .highlighted h3{
-    line-height: 28px;
   }
 
   .competitor-highlighted h6{
