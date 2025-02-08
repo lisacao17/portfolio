@@ -34,6 +34,12 @@
   margin-bottom: 0px;
 }
 
+.banner h2{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
 .banner .cta {
   display: inline-block;
   padding: 16px 20px;
@@ -47,6 +53,34 @@
   vertical-align: middle;
   margin-left: 4px;
   font-size: 20px;
+}
+/*---*/
+
+/*Banner-stacked*/
+.banner-stacked {
+  background-color: #F7F9FB;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
+  text-align: center; /* Center text on mobile */
+  align-items: center; /* Center items vertically */
+  text-align: center; /* Ensure text is left-aligned */
+  padding: 32px 40px; /* Add padding if needed */
+  margin-bottom: 20px; /* Add margin to separate from other content */
+  margin-top: 16px;
+}
+
+.banner-stacked p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: #737373;
+}
+
+.banner-stacked h2{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
 }
 /*---*/
 
@@ -70,7 +104,7 @@
 }
 
 .subtitle h5{
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .body-content{
@@ -79,17 +113,22 @@
 
 .body-content img{
   width: 100%;
-  padding-bottom: 24px;
 }
 
 .body-content p{
   padding-bottom: 8px;
 }
 
+#round{
+  border-radius: 20px;
+}
+
 .body-content h5{
   margin-top: 0;
   text-align: center;
+  padding-top: 24px;
   padding-bottom: 12px;
+  color: #737373;
 }
 
 .body-content a{
@@ -203,6 +242,39 @@
   margin: 0;
   border-radius: 20px; 
   padding-bottom: 0px;
+}
+
+/*for the different stadia platforms*/
+#platforms-split{
+  padding-top: 24px;
+  margin: auto;
+  display: block;
+}
+
+.stadia-platforms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stadia-platforms img {
+  width: 48%;
+  height: auto;
+  margin: 0;
+  border-radius: 4px; 
+  padding-bottom: 0px;
+}
+
+/* bullet list */
+#bullet{
+  font-weight: 500;
+  color: #000;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#bullet-line{
+  margin-top: 0px;
 }
 
 #competitor-logos{

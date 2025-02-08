@@ -38,10 +38,9 @@ h4{
 }
 
 h5{
-  font-style: italic;
   font-size: 16px;
   font-weight: 400;
-  color: #000;
+  color: #BBBBBB;
 }
 
 h6{
@@ -54,6 +53,7 @@ h6{
 p{
   line-height: 26px;
   font-size: 16px;
+  color: #737373;
 }
 
 a{
