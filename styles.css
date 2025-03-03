@@ -68,8 +68,8 @@ li{
 }
 
 .page-container{
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 /*nav bar*/
@@ -208,7 +208,7 @@ li{
 
 .case-study h5{
   font-style: normal;
-  margin-top: 8px;
+  margin-top: 12px;
   margin-bottom: 20px;
 }
 
