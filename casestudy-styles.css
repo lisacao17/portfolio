@@ -29,7 +29,7 @@
   margin-bottom: 60px; /* Add margin to separate from other content */
 }
 
-.banner h3 {
+.banner h1 {
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -120,6 +120,7 @@
 
 .title-section h1{
   line-height: 16px;
+  font-size: 32px;
 }
 
 .body-section{
